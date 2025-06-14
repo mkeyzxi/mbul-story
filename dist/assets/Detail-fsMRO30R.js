@@ -1,4 +1,4 @@
-import{S as r,A as o}from"./index-CRnWHiyQ.js";class s{constructor(t,e){this.container=t,this.onRedirect=e}triggerRedirect(){var t;(t=this.onRedirect)==null||t.call(this)}renderStory(t){this.container.innerHTML=`
+import{S as r,A as o}from"./index-BU-v1o7F.js";class s{constructor(t,e){this.container=t,this.onRedirect=e}triggerRedirect(){var t;(t=this.onRedirect)==null||t.call(this)}renderStory(t){this.container.innerHTML=`
       <article class="max-w-xl mx-auto p-4 bg-white shadow rounded space-y-4" role="main" aria-labelledby="storyTitle">
         <img src="${t.photoUrl}" alt="Foto cerita oleh ${t.name}" class="w-full h-64 object-cover rounded">
         <p class="text-gray-700">Dibuat : ${new Date(t.createdAt).toLocaleDateString()}</p>
