@@ -7,6 +7,7 @@ const STATIC_ASSETS = [
   "/pwa-192x192.png",
   "/pwa-512x512.png",
   "/manifest.webmanifest",
+  "/sw.js",
 ];
 
 self.addEventListener("install", (event) => {
